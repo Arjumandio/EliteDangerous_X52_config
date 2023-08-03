@@ -31,9 +31,9 @@ The order of placing the necessary files is shown in the diagram below.
 ```mermaid
 
 graph LR;
-file1(EliteDangerous_X52_config/NoPro/Bindings/Elite.4.0.binds) -- "move" --> ED_dir(C:\Users\%USERNAME%\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings);
-file2(EliteDangerous_X52_config/NoPro/Bindings/StartPreset.4.start) -- "move with replacement" --> ED_dir(C:\Users\%USERNAME%\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings);
-file3(EliteDangerous_X52_config/NoPro/X52/Elite.pr0) -- "move" --> X52_dir(C:\Users\Public\Documents\Logitech\X52);
+file1(EliteDangerous_X52_config\NoPro\Bindings\Elite.4.0.binds) -- "copy" --> ED_dir(C:\Users\%USERNAME%\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings);
+file2(EliteDangerous_X52_config\NoPro\Bindings\StartPreset.4.start) -- "copy with replacement" --> ED_dir(C:\Users\%USERNAME%\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings);
+file3(EliteDangerous_X52_config\NoPro\X52\Elite.pr0) -- "copy" --> X52_dir(C:\Users\Public\Documents\Logitech\X52);
 ```
 
 ## FAQ
