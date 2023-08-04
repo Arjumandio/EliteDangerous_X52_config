@@ -35,5 +35,9 @@ file1(EliteDangerous_X52_config\NoPro\Bindings\Elite.4.0.binds) -- "copy" --> ED
 file2(EliteDangerous_X52_config\NoPro\Bindings\StartPreset.4.start) -- "copy with replacement" --> ED_dir(C:\Users\%USERNAME%\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings);
 file3(EliteDangerous_X52_config\NoPro\X52\Elite.pr0) -- "copy" --> X52_dir(C:\Users\Public\Documents\Logitech\X52);
 ```
+Where `%USERNAME%` is the name of the current user.
+
+You can also use a script `configure.bat` to automatically copy the necessary files from the repository. This script can be run by double click or via cmd.
+
 
 ## FAQ
