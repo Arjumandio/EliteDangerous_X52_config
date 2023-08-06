@@ -41,3 +41,12 @@ You can also use a script `configure.bat` to automatically copy the necessary fi
 
 
 ## FAQ
+
+**Q:** After installing the configuration according to the instructions in the control settings in the game, I do not see installed control profile. Why?
+
+**A:** The following are possible causes of the problem and how to solve them:
+
+1. Some of the configuration files were not installed in the correct directory. You need to check if the required directories contain the listed files and place the missing ones manually (see the "Deploy" section). If you solved the problem and used the installation script during the initial installation - let me know and I will try to fix it.
+
+2. H.O.T.A.S X52 game controller is not connected. The configuration presented in this repository only works with this game controller, therefore, if there is no connection between H.O.T.A.S X52 and a PC, the desired control profile is not displayed in the game (both by default and in the drop-down list of all control profiles).
+
